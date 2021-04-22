@@ -91,6 +91,7 @@ workspace "ml_physics"
 	filter {}
 		group "Module"
 			include "module"
+			include "physics"
 
 		group "Test"
 			include "test"

@@ -4,13 +4,15 @@ project "ml_physics"
 	targetname "ml_physics"
 
 	vpaths {
-		["Headers/*"] = "**.h",
+		["Headers"] = "**.h",
 		["Sources"] = "**.cpp",
 		["*"] = "premake5.lua"
 	}
 
 	files {
 		"premake5.lua",
-		"*.h",
-		"*.cpp"
+		"**.h",
+		"**.cpp"
 	}
+
+	includedirs { ".", "include" }
