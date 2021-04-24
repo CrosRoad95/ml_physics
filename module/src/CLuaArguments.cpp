@@ -15,9 +15,7 @@
 *  PROVIDED WITH THIS PACKAGE.
 *
 *********************************************************/
-
-#include "CLuaArguments.h"
-#include <assert.h>
+#include "StdInc.h"
 
 CLuaArguments::CLuaArguments ( const CLuaArguments& Arguments )
 {

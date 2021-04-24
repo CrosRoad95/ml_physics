@@ -1,15 +1,4 @@
-/*********************************************************
-*
-*  Multi Theft Auto: San Andreas
-*
-*  Shell module which can execute commands.
-*
-*  Developers:
-*  x86 <sebasdevelopment@gmx.com>
-*
-*********************************************************/
-
-#include "ml_system.h"
+#include "StdInc.h"
 
 ILuaModuleManager10* pModuleManager = NULL;
 

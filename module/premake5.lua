@@ -15,4 +15,7 @@ project "ml_physics"
 		"**.cpp"
 	}
 
+	pchheader "StdInc.h"
+	pchsource "StdInc.cpp"
+
 	includedirs { ".", "include" }

@@ -1,17 +1,4 @@
-/*********************************************************
-*
-*  Multi Theft Auto: San Andreas
-*
-*  Shell module which can execute commands.
-*
-*  Developers:
-*  x86 <sebasdevelopment@gmx.com>
-*
-*********************************************************/
-
-#include <stdlib.h>
-#include "CFunctions.h"
-#include "CLuaArgument.h"
+#include "StdInc.h"
 
 int CFunctions::System(lua_State* luaVM)
 {

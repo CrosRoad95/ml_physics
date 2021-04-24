@@ -16,13 +16,8 @@
 *
 *********************************************************/
 
-#ifdef WIN32
-    #pragma warning (disable : 4996) // DISABLE: 'strcpy': This function or variable may be unsafe.
-#endif
+#include "StdInc.h"
 
-#include "CLuaArgument.h"
-#include <assert.h>
-#include <cstring>
 
 using namespace std;
 
