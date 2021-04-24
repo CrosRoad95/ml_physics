@@ -1,6 +1,9 @@
-#include <iostream>
+#include "StdInc.h"
 
-int main()
+extern "C" __declspec(dllexport) CBulletPhysicsBase* Run();
+
+CBulletPhysicsBase* Run()
 {
-    std::cout << "Hello World!\n";
+    CBulletPhysics* physics = new CBulletPhysics();
+    return physics;
 }
