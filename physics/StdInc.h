@@ -71,6 +71,7 @@ extern CGame* g_pGame;
 #include "SString.h"
 #include "SharedUtil.Time.h"
 #include "SharedUtil.Misc.h"
+#include "SharedUtil.File.h"
 #include "CVector.h"
 
 inline float DistanceBetweenPoints3D(const CVector& vecPosition1, const CVector& vecPosition2)
