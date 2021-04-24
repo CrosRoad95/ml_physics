@@ -1,9 +1,9 @@
 #include <iostream>
 #include <windows.h>
 
-#include "../physics/include/base/CPhysicsBase.h"
+#include "../physics/include/physics/base/CBulletPhysicsBase.h"
 
-typedef CPhysicsBase*(*RunPhysics)();
+typedef CBulletPhysicsBase*(*RunPhysics)();
 
 int main()
 {
@@ -23,6 +23,6 @@ int main()
         return EXIT_FAILURE;
     }
 
-    CPhysicsBase* pPhysics = runPhysics();
+    CBulletPhysicsBase* pPhysics = runPhysics();
     int a = 5;
 }
